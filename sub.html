@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.4.min.js"></script>
+
+
+
+  <script>
+    $(document).ready(function () {
+      $(".ham_icon").click(function () {
+        $(".menu").slideToggle();
+      });
+
+      $(window).resize(function () {
+        if (window.innerWidth >= 1200) {
+          $(".menu").show();
+        }
+      });
+
+      $(window).resize(function () {
+        if (window.innerWidth <= 1199) {
+          $(".menu").hide();
+        }
+      });
+
+      $(window).resize(function () {
+        if (window.innerWidth >= 600) {
+          $(".menu").show();
+        }
+      });
+
+      $(window).resize(function () {
+        if (window.innerWidth <= 599) {
+          $(".menu").hide();
+        }
+      });
+
+    });
+  </script>
+
+  <title>The Metropolitan Museum of Art
+  </title>
+
+
+  <link href="https://hangeul.pstatic.net/hangeul_static/css/nanum-square.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/cbe0a4bd5c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link href="css/reset.css" rel="stylesheet">
+  <link href="css/sub_max_599.css" rel="stylesheet">
+  <link href="css/sub_min_600.css" rel="stylesheet">
+  <link href="css/sub_min_1200.css" rel="stylesheet">
+
+
+
+</head>
+
+
+
+<body>
+
+  <!-- 랩 박스 -->
+
+  <!--sub -->
+  <div id="sub_slider"></div>
+  <!-- sub end -->
+
+
+  <div id="wrap">
+    <!-- 헤더**START -->
+    <header>
+      <div id="head_box">
+        <div class="top_box">
+          <div class="logo_box">
+            <a href="#" alt="" target="_blank">
+              <img src="img/logo/logo.png" alt="" class="a_logo"></a>
+            <img src="img/icon/ham.png" alt="" class="ham_icon">
+          </div>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="#">VISIT</a></li>
+            <li><a href="#">EXHIBITIONS AND EVENTS</a></li>
+            <li><a href="#">ART</a></li>
+            <li><a href="#">LEARN WITH US</a></li>
+            <li><a href="#">RESEARCH</a></li>
+            <li><a href="#">SHOP</a></li>
+          </ul>
+        </nav>
+      </div> <!-- top_box**END -->
+    </header> <!-- 헤더**END -->
+
+
+    <!-- 서브 START -->
+
+    <div class="text_nav">
+      <ul>
+        <li><a href="#">HOME ></a></li>
+        <li><a href="#">VISIT ></a></li>
+        <li><a href="#"><span>ABOUT</span></a></li>
+      </ul>
+    </div>
+
+    <div class="control_wrap">
+
+
+      <div class="left_wrap">
+
+        <div class="left_box">
+          <div class="contentbox_1">
+            <h1>History of the Museum</h1>
+            <div class="q1">
+              <div class="text">
+                <p>The Metropolitan Museum of Art's earliest roots date back to 1866 in Paris, France, when a group of
+                  Americans agreed to create a "national institution and gallery of art" to bring art and art education
+                  to
+                  the American people. The lawyer John Jay, who proposed the idea, swiftly moved forward with the
+                  project
+                  upon
+                  his return to the United States from France. Under Jay's presidency, the Union League Club in New York
+                  rallied
+                  civic leaders, businessmen, artists, art collectors, and philanthropists to the cause. On April 13,
+                  1870,
+                  The Metropolitan Museum of Art was incorporated, opening to the public in the Dodworth Building at 681
+                  Fifth Avenue. On November 20 of that same year, the Museum acquired its first object, a Roman
+                  sarcophagus.
+                  In
+                  1871, 174 European paintings, including works by Anthony van Dyck, Nicolas Poussin, and Giovanni
+                  Battista
+                  Tiepolo, entered the collection.</p>
+              </div>
+              <div class="pic"><img src="img/image/historymet_img.jpg"></div>
+
+
+            </div>
+          </div>
+        </div>
+
+
+        <div class="left_box">
+
+          <div class="contentbox">
+            <h1>FAQ</h1>
+            <!-- <div class="q1">
+              <h4><i class="fa-solid fa-tag"></i>
+                How can I obtain permission to film or photograph at The Metropolitan Museum of Art and/or The
+                Cloisters museum and gardens?</h4>
+              <p>Please email a detailed request to communications@metmuseum.org.</p>
+            </div> -->
+
+
+            <div class="q1">
+              <h4><i class="fa-solid fa-tag"></i> How can I obtain publicity images to reproduce in a magazine,
+                newspaper, or website?</h4>
+              <p>To view and request press images for the Museum's current and upcoming exhibitions and news stories
+                about the Met, please sign in or register for a press account in the Press Images section of the online
+                Press Room. For urgent requests, contact the Communications Office at 212-570-3951 or
+                communications@metmuseum.org.</p>
+            </div>
+
+
+            <div class="q1">
+              <h4><i class="fa-solid fa-tag"></i> How can I obtain a press kit for a special exhibition?</h4>
+              <p>Online press kits for special exhibitions are available online in the Exhibitions section of the Press
+                Room. Press releases and information on general topics and institutional announcements can be found in
+                the Press Room's News section.</p>
+            </div>
+
+            <div class="q1">
+              <h4><i class="fa-solid fa-tag"></i> How can I get a press pass to visit the Museum?</h4>
+              <p>The Metropolitan Museum of Art does not issue press passes, but does honor press passes issued by the
+                city and other institutions and media outlets. Please present your press ID to our admissions staff, and
+                they will be happy to give you complimentary admission.
+              </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+        <!-- 멤버십 가격 시작 -->
+
+        <div class="sub_title_h1">
+          <h1>Membership</h1>
+          <p>One iconic Museum. Many Membership possibilities.</p>
+        </div>
+
+        <div class="member_wrap">
+
+          <!-- mem 1 -->
+          <div class="member_box">
+            <div class="member_text">
+              <div class="m1">
+                <h3>Member with Early Views</h3>
+                <p class="cost">$110 per year</p>
+                <p><img src="img/image/mem_1.png" alt=""></p>
+              </div>
+
+              <div class="m2">
+                <p class="bold">1 Member Card + 1 Guest</p>
+                <p>Plus behind-the-scenes daytime access to new exhibitions
+                  and more</p>
+                <p class="italic">Within the limits prescribed by law,
+                  $44 is not tax-deductible</p>
+              </div>
+
+              <div class="bt_1">Join/Renew</div>
+            </div>
+
+            <div class="listbox">
+              <ul>
+                <li><a href="#">Free admission for 1 Member cardholder and 1 guest every visit (and children under
+                    18)</a>
+                </li>
+                <li><a href="#">Digital Bulletin</a></li>
+                <li><a href="#">Curator's Cut - Archive</a></li>
+                <li><a href="#">Member Morning Hours</a></li>
+                <li><a href="#">Member Preview Days</a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <!-- mem 2 -->
+          <div class="member_box">
+            <div class="member_text">
+              <div class="m1">
+                <h3>Member with Evening Hours</h3>
+                <p class="cost">$210 per year</p>
+                <p><img src="img/image/mem_2.png" alt=""></p>
+              </div>
+
+              <div class="m2">
+                <p class="bold">2 Member Cards + 2 Guests</p>
+                <p>Plus behind-the-scenes evening access to new exhibitions and more</p>
+                <p class="italic">Within the limits prescribed by law, $104 is not tax-deductible</p>
+              </div>
+
+              <div class="bt_1">Join/Renew</div>
+            </div>
+
+            <div class="listbox">
+              <ul>
+                <li><a href="#">Free Admission for 2 Member cardholders and 2 guests every visit (and children under
+                    18)
+                  </a></li>
+                <li><a href="#">Access to The Balcony Lounge </a></li>
+                <li><a href="#">Print and Digital Quarterly Metropolitan Museum of Art Bulletin </a></li>
+                <li><a href="#">Curator's Cut - Archive </a></li>
+                <li><a href="#">Access to Met Delivered Archive </a></li>
+                <li><a href="#">Member Morning Hours </a></li>
+                <li><a href="#">Member Preview Days </a></li>
+                <li><a href="#">The Met After Hours </a></li>
+              </ul>
+            </div>
+          </div>
+
+
+          <!-- mem 3 -->
+          <div class="member_box">
+
+            <div class="member_text">
+
+              <div class="m1">
+                <h3>Member with Opening Nights</h3>
+                <p class="cost">$600 per year</p>
+                <p><img src="img/image/mem_3.png" alt=""></p>
+              </div>
+
+              <div class="m2">
+                <p class="bold">2 Member cards + 4 guests</p>
+                <p>Plus behind-the-scenes daytime access to new exhibitions with curators,
+                  art historians and Museum experts</p>
+                <p class="italic">Within the limits prescribed by law, $254 is not tax-deductible</p>
+              </div>
+
+              <div class="bt_1">Join/Renew</div>
+            </div>
+
+            <div class="listbox">
+              <ul>
+                <li><a href="#">Free Admission for 2 Member cardholders and 4 guests every visit
+                    (and children under 18)</a>
+                </li>
+                <li><a href="#">Access to The Balcony Lounge</a></li>
+                <li><a href="#">Print and Digital Quarterly Metropolitan Museum of Art Bulletin </a></li>
+                <li><a href="#">Curator's Cut - Archive</a></li>
+                <li><a href="#">Access to Met Delivered Archive</a></li>
+                <li><a href="#">Member Morning Hours </a></li>
+                <li><a href="#"> Member Preview Days </a></li>
+                <li><a href="#"> The Met After Hours </a></li>
+                <li><a href="#"> Evening Receptions for Special Exhibitions</a></li>
+              </ul>
+            </div>
+
+          </div>
+
+
+        </div>
+
+        <!-- 멤버십 가격 끝 -->
+
+
+        <div class="sub_title_h1">
+          <h1>MET's GALLERY <i class="fa-solid fa-image"></i></h1>          
+        </div>
+
+        <div class="gallery">
+          <div class="photo1"><img src="img/sub/sub_right_0007.jpg" alt=""></div>
+          <div class="photo2"><img src="img/sub/sub_right_0011.jpg" alt=""></div>
+          <div class="photo3"><img src="img/sub/sub_right_0008.jpg" alt=""></div>
+          <div class="photo4"><img src="img/sub/sub_right_0015.jpg" alt=""></div>
+          <div class="photo5"><img src="img/sub/sub_right_0012.jpg" alt=""></div>
+          <div class="photo6"><img src="img/sub/sub_right_0006.jpg" alt=""></div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <!-- 왼쪽 컨트롤 랩 -->
+
+      <div class="right_wrap">
+
+        <div class="right_box">
+          <div class="search">
+            <input type="text" placeholder="SEARCH" onfocus="this.placeholder=''"
+              onblur="this.placeholder='SEARCH'"></input>
+            <div class="search_num"><a href="#">1. NOW ON VIEW</a></div>
+            <div class="search_num"><a href="#">2. MEMBERSHIP</a></div>
+            <div class="search_num"><a href="#">3. PROGRAMS</a></div>
+            <div class="search_num"><a href="#">4. MEMBER MORNING HOURS</a></div>
+            <div class="search_num"><a href="#">5. NEWSLETTER</a></div>
+
+          </div>
+
+
+
+        </div>
+
+        <div class="right_box">
+
+          <div class="now_content">
+            <h3>NOW ON VIEW</h3>
+          </div>
+
+          <div class="now_content"><a href="#">
+              <div class="now_pt"><img src="img/image/00010.jpg" alt=""></div>
+              <div class="text">
+                <p>Embracing Color: Enamel in Chinese Decorative Arts</p>
+              </div>
+            </a>
+            </a></div>
+
+          <div class="now_content"><a href="#">
+              <div class="now_pt"><img src="img/image/00011.jpg" alt=""></div>
+              <div class="text">New York Art Worlds, 1870-1890</div>
+            </a></div>
+
+          <div class="now_content"><a href="#">
+              <div class="now_pt"><img src="img/image/00012.jpg" alt=""></div>
+              <div class="text">Berenice Abbott’s New York Album, 1929</div>
+            </a></div>
+
+          <div class="now_content"><a href="#">
+              <div class="now_pt"><img src="img/image/00003.jpg" alt=""></div>
+              <div class="text">Beyond the Light: Identity and Place in Nineteenth-Century Danish Art</div>
+            </a></div>
+
+          <div class="now_content"><a href="#">
+              <div class="now_pt"><img src="img/image/00005.jpg" alt=""></div>
+              <div class="text">The Facade Commission: Hew Locke, Gilt</div>
+            </a></div>
+        </div>
+
+
+        <div class="right_box">
+          <div class="mem_event">
+            <h3>MEMBERSHIP PROGRAMS</h3>
+            <div class="mem_pic">
+              <img src="img/sub/sub_program_0003.jpg">
+            </div>
+            <div class="mem_text">
+              <p>Workshops and activities</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="right_box">
+          <div class="mem_event">
+            <h3>KIDS AND FAMILIES</h3>
+            <div class="mem_pic">
+              <img src="img/sub/sub_program_0001.jpg">
+            </div>
+            <div class="mem_text">
+              <p>Programs for families</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="right_box">
+          <div class="mem_event">
+            <h3>LEARN WITH US</h3>
+            <div class="mem_pic">
+              <img src="img/sub/sub_program_0002.jpg">
+            </div>
+            <div class="mem_text">
+              <p>Timeline of Art History</p>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="right_box">
+          <div class="mem_join">
+            <h3>Contact Us</h3>
+            <p><i class="fa-solid fa-envelope"></i> membership@metmuseum.org</p>
+            <p><i class="fa-solid fa-phone"></i> 212-570-3753</p>
+          </div>
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+    </div> <!-- 서브 END -->
+
+
+
+
+
+    <!-- 하단 START -->
+    <div class="gridcontainer">
+      <div class="footgrid item1">
+        <img src="img/logo/logo_bk.png">
+      </div>
+
+      <div class="footgrid item2">
+        <ul>
+          <li><a href="#">
+              <h4>The Met Fifth Avenue</h4>
+            </a></li>
+          <li>
+            <div class="adress">
+              1000 Fifth Avenue<br>
+              New York, NY 10028<br>
+              Phone: 212-535-7710</div>
+        </ul>
+
+        <ul>
+          <li><a href="#">
+              <h4>The Met Cloisters</h4>
+            </a></li>
+          <li>
+            <div class="adress">
+              99 Margaret Corbin Drive<br>
+              Fort Tryon Park<br>
+              New York, NY 10040<br>
+              Phone: 212-923-3700</div>
+        </ul>
+
+      </div>
+
+      <div class="footgrid item3">
+        <ul>
+          <li><a href="#" target="#">About The Met</a></li>
+          <li><a href="#" target="#">Mission and History</a></li>
+          <li><a href="#" target="#">Collection Areas</a></li>
+          <li><a href="#" target="#">Conservation Departments</a></li>
+          <li><a href="#" target="#">Accessibility</a></li>
+          <li><a href="#" target="#">Press</a></li>
+        </ul>
+      </div>
+
+
+      <div class="footgrid item4">
+        <ul>
+          <li><a href="#" target="#">Support</a></li>
+          <li><a href="#" target="#">Membership</a></li>
+          <li><a href="#" target="#">Host an Event</a></li>
+          <li><a href="#" target="#">Travel with The Met</a></li>
+          <li><a href="#" target="#">Corporate Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footgrid item5">
+        <ul>
+          <li><a href="#" target="#">Career Opportunities</a></li>
+          <li><a href="#" target="#">Volunteers</a></li>
+          <li><a href="#" target="#">Fellowships</a></li>
+          <li><a href="#" target="#">Internships</a></li>
+        </ul>
+      </div>
+
+      <div class="footgrid item6">
+        <ul>
+          <li><a href="#" target="#">
+              <h3>Follow us</h3>
+            </a></li>
+          <div class="sns_icon">
+            <img src="img/icon/facebook.png" alt="facebook">
+            <img src="img/icon/twit.png" alt="twitter">
+            <img src="img/icon/pinter.png" alt="pinter">
+            <img src="img/icon/instar.png" alt="instar">
+            <img src="img/icon/youtube.png" alt="youtube">
+          </div>
+        </ul>
+      </div>
+
+      <div class="footgrid item7">
+        <h3>Join our newsletter</h3>
+        <form>
+          <input type="text" placeholder="Enter your email" onfocus="this.placeholder=''"
+            onblur="this.placeholder='Enter your email'"></input> <button>Sign Up</button>
+
+        </form>
+        <p><img src="img/icon/dot_wr.png"> Please enter a valid email</p>
+
+
+      </div>
+
+
+    </div>
+
+
+    <footer>
+      <div class="footer_menu">
+        <ul>
+          <li><a href="#" target="#">Site Index</a></li>
+          <li><a href="#" target="#">Terms and Conditions</a></li>
+          <li><a href="#" target="#">Privacy Policy</a></li>
+          <li><a href="#" target="#">Contact Information</a></li>
+        </ul>
+
+
+        <div class="footer_menu_right">
+          <p>© 2000&#45;2023 The Metropolitan Museum of Art. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+  </div> <!-- 랩 닫는 박스 -->
+
+
+</body>
+
+</html>
